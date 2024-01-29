@@ -1,0 +1,21 @@
+==>> Aula 2: Colaborando em projetos:
+
+
+- Clonando um repositório:
+	- Em Code, no GitHub, conseguimos ter várias opções de download dos arquivos.
+		- Para download de todo o repositório, copio o URL que ele me dá em "code", vou até onde quero cópiar o repositório, abro do prompt de comando, depois coloco o código "git clone {link}" + enter. Daí ele faz o download completo do repositório.
+
+
+- Realizando um commit:
+	- Um commit guarda o estado do projeto naquele momento.
+	-  Se eu alterar algum arquivo, ou vários arquivos, e não me lembrar quais foram alterados, posso utilizar, pelo terminal do vs code, o comando "git status" o qual vai me mostrar quais os arquivos foram modificados.
+	- No terminal do vscode, utilizando do comando "git add ." eu adiciono todos os arquvios de um projeto no repositório local.
+	- Utilizando o comando "git commit" eu registro todas as mudanças no repositório.
+		- Se eu utilizar o comando "git commit -m"{mensagem}"" eu consigo colocar uma mensagem com a descrição do que foi alterado, por exemplo.
+	- Utilizando do comando "git log" o terminal ira listar o histórico de commits de um repositório.
+	- O controle de mudanças do Git é feito através dos commits. Cada commit armazena o estado completo do projeto em um determinado momento por meio de um snapshot. Ou seja, cada commit é um registro completo do repositório no momento em que esse commit foi criado.
+
+
+- Enviando commits: 
+
+	
