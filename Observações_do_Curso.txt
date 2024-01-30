@@ -23,6 +23,69 @@
 		- Tenho que está no Github, dentro do projeto, aí vou em configurações do repositório, clico na opção de colaboradores e depois adiciono as pessoas. Após adicionar a pessoa precisa aceitar o convite.
 
 
+- Baixando novos commits:
+	- utilizando o comando "git pull origin main" para baixar os commits do repositório remoto para o repositório local.
+
+***********************************************Resumo da Aula*****************************************************************************
+Nessa aula, você aprendeu como:
+Baixar uma cópia de um repositório hospedado no GitHub para o seu computador, utilizando o comando git clone;
+Realizar alterações no código de um projeto e registrá-las com commits, utilizando os comandos git add e git commit;
+Visualizar quais arquivos foram modificados no repositório local, utilizando o comando git status;
+Listar os commits realizados no repositório, com dados do autor, data e mensagem de cada commit, utilizando o comando git log;
+Visualizar os repositórios remotos linkados com o repositório local, utilizando o comando git remote;
+Enviar commits feitos no repositório local para o repositório remoto, utilizando o comando git push;
+Baixar commits do repositório remoto para o repositório local, utilizando o comando git pull;
+Adicionar uma pessoa como colaboradora em um repositório no GitHub, e também como aceitar um convite de colaboração recebido.
+******************************************************************************************************************************************
+
+
+==>> Aula 3: Utilizando Git na IDE:
+- Git no VSCode:
+	- Com o vs code aberto, ao lado esquerdo, tem um ícone "Soucer Control" ou (Ctrl+Shift+G). Por essa interfase conseguimos fazer qualquer comando como upload ou download do git.
+		- Tem alguns icones (Changes) nessa interfase, o simbolo de "+" significa que vou adicionar essas alterações no próximo commit(Staged Changes).
+- Simulando um conflito:
+	- Se duas pessoas ou mais, fizerem alterações na mesma linha e ambos forem fazer o commit, o git dará uma msg de erro pois não sabe qual será relevante em consideração ao outro.
+- Resolvendo conflito:
+	- Nesse caso pelo vscode ele nos mostra as linhas conflitantes e nós manualmente podemos escolher a que prevalecerá em relação a outra.
+	- Após resolver o conflito, deve ser feito um novo commit.
+	- Podemos tbm utilizar uma ferramenta "Merge Editor"
+		- Para solucionarmos o problema, clicamos na opção “Resolve in Merge Editor”
+		- Após o clique, somos redirecionados para outra aba que apresenta as modificações no arquivo.
+		- Incoming (remoto): modificações que chegam do repositório remoto. Current (local): modificações locais. Result (resultado): resultado do merge, ou seja, a resolução dos conflitos de mesclagem. É o estado atual do arquivo. (Os quadrados na cor amarela em volta do código no campo “Incoming” e “Current” são marcadores de conflito: exibem o conteúdo que apresenta conflito no arquivo.)
+			- Após selecionarmos a opção com o resultado desejado, devemos: Salvar o arquivo, Clicar no botão “complete Merge”, Realizar o commit das modificações, Sincronizar as modificações para realizar o push.	
+***********************************************************Resumo da Aula***************************************************************
+Nessa aula, você aprendeu como:
+Utilizar o Git pela integração do VSCode, ao invés de utilizar pelo terminal;
+Entender como acontecem conflitos de códigos em commits que modificam um mesmo arquivo, feitos por pessoas distintas;
+O Git sinaliza no código um conflito, via marcações visuais;
+Resolver um conflito manualmente, editando o arquivo e realizando um commit que marca o conflito como resolvido.
+*****************************************************************************************************************************************
+==>> Aula 4: Voltando no tempo:
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
