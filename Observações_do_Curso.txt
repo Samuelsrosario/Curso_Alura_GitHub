@@ -17,8 +17,10 @@
 
 
 - Enviando commits: 
--
-
+	- Utilizando o comando "git remote" eu listo os repositórios remotos.
+	- Utilizando do comando "git push", eu envio os commits do repositório local para o repositório remoto do GitHub.
+	- Adicionando colaboradores ao projeto:
+		- Tenho que está no Github, dentro do projeto, aí vou em configurações do repositório, clico na opção de colaboradores e depois adiciono as pessoas. Após adicionar a pessoa precisa aceitar o convite.
 
 
 
