@@ -1,5 +1,91 @@
-==>> Aula 2: Colaborando em projetos:
+==>> 01. Compartilhando projetos:
+=> Apresentação.
+=> Conhecendo o GitHub:
+- Podemos compartilhar o projeto e também somente o código.
+=> Criando um repositório:
+- Repositório: É o local onde vou guardar as informações/ documentos daquele projeto.
+- O nome do repositório, no momento da criação, ele deve ser único na minha conta, isso significa que não consigo ter dois repositórios na minha conta com o mesmo nome.
+- O campo descrição, o seu preenchimento é opcional.
+- O campo de visbilidade (publico/privado) deve ser preenchido, nele a gente informa se aquele repositório vai ter visibilidade de quem tiver o link ou somente eu terei o acesso a ele.
+=> Instalando o Git:
+- O link entre o projeto que está no computador com a conta do GitHub, se dá atraves de comandos, o Vs code tem um terminal integrado, indo em "terminal/novoterminal".
+	- Ao clicar no novo terminal, abri-se um prompt de comandos, é nesse local onde estarei colocando os comandos a serem executados.
+	- Quando eu crio um repositório, logo ele mostra alguns comandos os quais devo executar se tenho ou não o repositório na minha máquina.
+	- Antes, temos que instalar o GIT.
+	- Após instalar o GIT, devemos configurar as "variáveis de ambiente" do windows.
+	- utilizando dentro da pasta do projeto, no vs code, no novo terminal, o comando "git init" iniciara o repositório do GIT no Vs Code.
+		- O comando git init deve ser utilizado para converter um diretório existente no computador, que geralmente é o diretório de algum projeto, em um repositório Git.
+			- Esse comando deve ser utilizado somente uma vez, pois ele transforma o diretório do projeto em um repositório GIT. Quando executado, ele configura o diretório atual para ser rastreado pelo Git, inicializando um repositório vazio. Ele deve ser executado dentro do diretório do projeto e não em outros diretórios do computador.
+	- 
 
+* GitHub: Plataforma onde hospedamos o código.
+* GIT: Ferramenta onde fazemos o controle de versões do código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==>> Aula 2: Colaborando em projetos:
 
 - Clonando um repositório:
 	- Em Code, no GitHub, conseguimos ter várias opções de download dos arquivos.
