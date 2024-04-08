@@ -12,14 +12,29 @@
 	- Ao clicar no novo terminal, abri-se um prompt de comandos, é nesse local onde estarei colocando os comandos a serem executados.
 	- Quando eu crio um repositório, logo ele mostra alguns comandos os quais devo executar se tenho ou não o repositório na minha máquina.
 	- Antes, temos que instalar o GIT.
-	- Após instalar o GIT, devemos configurar as "variáveis de ambiente" do windows.
+	- Após instalar o GIT, devemos configurar as "variáveis de ambiente/path" do windows, da´coloco o caminho do Git.
 	- utilizando dentro da pasta do projeto, no vs code, no novo terminal, o comando "git init" iniciara o repositório do GIT no Vs Code.
 		- O comando git init deve ser utilizado para converter um diretório existente no computador, que geralmente é o diretório de algum projeto, em um repositório Git.
 			- Esse comando deve ser utilizado somente uma vez, pois ele transforma o diretório do projeto em um repositório GIT. Quando executado, ele configura o diretório atual para ser rastreado pelo Git, inicializando um repositório vazio. Ele deve ser executado dentro do diretório do projeto e não em outros diretórios do computador.
-	- 
-
 * GitHub: Plataforma onde hospedamos o código.
 * GIT: Ferramenta onde fazemos o controle de versões do código.
+=> Sicronizando repositórios
+- utilizando o código "git add ." assim ele vai adicionar todos os arquivos no repositório.
+- Depois utilizamos o comando "git commit -m" e podemos colocar uma mensagem, desde que ela esteja dentro de aspas duplas.
+	- tenho que fazer o login e senha do GitHub, depois do email devo colocar o meu nome.
+- Depois utilizo o comando "git branch -M main"
+- Logo após utilizo o comando "git remote add origin https://..." depois de rodar esse comando, estaremos conectando o repositório local com o repositório do GitHub.
+	- Clicando lá no "Quick setup" é importante que utilizemos o SSH.
+	- Lembrando que esse comando ele só faz o link entre o repositório local e o da nuvem.
+- Utilizando o comando "git push -u origin main" esse sim envia os doc para a nuvem.
+	- Ao tentar fazer o processo é importante gerar a chave SSH.
+		- Para geração da chave, no GitHUb vamos em configuração, depois "SSH and gpg KEYS"
+		- No próprio site do GitHub ele ensina a como gerar uma nova chave SSH.
+
+
+
+
+
 
 
 
